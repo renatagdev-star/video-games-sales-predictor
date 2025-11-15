@@ -44,6 +44,9 @@ Try the hosted application:
 **https://renatagdev-star-video-games-sales-predictor-app-fu783i.streamlit.app/**
 
 ---
+## 🌍 App Preview:
+
+https://github.com/renatagdev-star/video-games-sales-predictor/blob/main/app_preview.JPG
 
 ## 📈 Results
 
