@@ -30,7 +30,7 @@ Streamlit
 
 Try the hosted version here:
 
-https://game-sales-predictor-wuzfyg3z7uhrynk2tas3pb.streamlit.app/
+https://renatagdev-star-video-games-sales-predictor-app-fu783i.streamlit.app/
 
 📈 Results
 
