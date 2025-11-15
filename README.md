@@ -1,45 +1,58 @@
-🎮 Video Game Sales Prediction
+# 🎮 Video Game Sales Prediction
 
-This project uses machine learning to predict whether a video game will achieve good or bad global sales based on features such as platform, genre, and publisher.
+This project predicts whether a video game will achieve **GOOD** or **BAD** global sales using machine learning and engineered statistical features.
 
-🧠 Project Overview
+---
 
-Exploratory Data Analysis (EDA) – Statistical analysis and visualization of the dataset to understand sales distribution, detect outliers, and identify patterns between features.
+## 🧠 Project Overview
 
-Data Preprocessing – Cleaning the dataset, handling missing values, and removing outliers.
+- **Exploratory Data Analysis (EDA)**  
+  Statistical exploration, visualization, distribution analysis, and outlier detection.
 
-AutoGluon Modeling – Automated model selection to identify the best-performing algorithm.
+- **Data Preprocessing**  
+  Cleaning the dataset, handling missing values, removing invalid entries, and preparing the data for modeling.
 
-Feature Engineering – Creation of statistical, interaction, and ranking features to improve accuracy.
+- **AutoGluon Modeling**  
+  Automated model benchmarking to identify the strongest algorithm.
 
-Model Evaluation – Best F1-test score of 0.74 achieved using LightGBM.
+- **Feature Engineering**  
+  Creation of statistical, interaction, ranking, and aggregated features to boost predictive performance.
 
-Manual Retraining – The selected LightGBM model was retrained separately to optimize memory usage.
+- **Model Evaluation**  
+  LightGBM achieved the best F1-test score of **0.74**.
 
-Deployment – The trained model was integrated into a Streamlit app for real-time predictions.
+- **Manual Retraining**  
+  The selected LightGBM model was retrained separately to reduce memory usage and improve performance.
 
-⚙️ Technologies
+- **Deployment**  
+  The final model is integrated into a Streamlit app enabling real-time predictions.
 
-Python, Pandas, NumPy, Matplotlib, Seaborn
+---
 
-AutoGluon, LightGBM, Scikit-learn
+## ⚙️ Technologies Used
 
-Streamlit
+- Python, Pandas, NumPy, Matplotlib, Seaborn  
+- AutoGluon, LightGBM, Scikit-learn  
+- Streamlit  
 
-🌍 Live Demo
+---
 
-Try the hosted version here:
+## 🌍 Live Demo
 
-https://renatagdev-star-video-games-sales-predictor-app-fu783i.streamlit.app/
+Try the hosted application:
 
-📈 Results
+**https://renatagdev-star-video-games-sales-predictor-app-fu783i.streamlit.app/**
 
-Accuracy: 73% (with feature engineering)
+---
 
-Macro F1-score: 0.73
+## 📈 Results
 
-Best model: LightGBM (F1-test = 0.74)
+- Accuracy: **73%**  
+- Macro F1-score: **0.73**  
+- Best Model: **LightGBM (F1-test = 0.74)**
 
-📦 Model File
+---
 
-Trained model: lightgbm_sales_classifier.pkl
+## 📦 Model File
+
+Trained model: `lightgbm_sales_classifier.pkl`
